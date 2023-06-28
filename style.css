@@ -1,0 +1,50 @@
+.slider{
+    width: 50rem;
+    height: 50rem;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.slider img:first-child{
+    display: block;
+}
+
+.buttons{
+    /* margin-top: 10px; */
+    margin-top: 10px ;
+    /* background: blue; */
+    text-align: center;
+    height: 50px;
+}
+.buttons button{
+    /* margin: 15px auto ; */
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    height: 100%;
+    width: 50px;
+    background: #6CABDD;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.buttons button:hover{
+    /* margin: 15px auto ; */
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    height: 100%;
+    width: 50px;
+    color: #6CABDD;
+    background: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid #6CABDD;
+
+}
